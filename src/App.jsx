@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import Profile from './Components/Profile.jsx'
-import Header from './Components/header.jsx'
+import Header from './Components/Header'
+import Profile from './Components/Profile'
 
 function App() {
   const [count, setCount] = useState(0)
