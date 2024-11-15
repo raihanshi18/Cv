@@ -1,33 +1,42 @@
 import React from 'react'
 import pp from '../assets/kucing.jpg'
-import { Card } from 'flowbite-react'
+import { Button, Card } from 'flowbite-react'
 
 const Profile = () => {
   return (
-    <Card className='max-w-full m-3'>
-    <div className='flex justify-between px-4 pt-4 flex-wrap m-3 '>
-      <div className="flex flex-col items-center pb-10">        
+    <div className="flex items-center justify-evenly h-screen gap-8 flex-wrap m-5 ">
+      <div className="flex flex-col ">
+        <h5 className="mb-3 md:text-2xl font-small text-gray-800 dark:text-white">
+          Hello!
+        </h5>
+        <h5 className="mb-3 md:text-5xl font-medium text-gray-900 dark:text-white">
+          I'm Raihan Abdur
+        </h5>
+        <h5 className="mb-3 md:text-5xl font-medium text-gray-900 dark:text-white">
+          Rahman Shiddiq
+        </h5>
+        <span className="text-lg md:text-xl  text-gray-500 dark:text-gray-400 max-w-md">
+          Junior Programmer
+        </span>
+
+        <div className="flex gap-7 mt-5">
+        <Button color="blue" pill>
+          About me 
+        </Button>
+        <Button color="blue" pill>
+          My Skills
+        </Button>
+        </div>
+      </div>
+
       <img
-          alt="Kucing image"    
-          height="96"
-          src={pp}
-          width="96"
-          className="mb-3 rounded-full shadow-lg"
-        />
-        <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Raihan Abdur Rahman Shiddiq</h5>
-        <span className="text-sm text-gray-500 dark:text-gray-400">Programmer</span> 
-      </div>
-      <div>
-        <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Raihan Abdur Rahman Shiddiq</h5>
-        <h5>Phone +62 8956 2007 5503</h5>
-        <h5>Email raihanshiddiq18@gmail.com</h5>
-        <h5>Github :</h5>
-        <h5>Linkdl :</h5>
-      </div>
-                   
+        alt="image"
+        src={pp}
+        className="w-90 h-90"
+      />
     </div>
-    </Card> 
   )
 }
+
 
 export default Profile
