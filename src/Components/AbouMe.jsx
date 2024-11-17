@@ -4,14 +4,16 @@ import { Button, Card, Table } from 'flowbite-react'
 
 const AboutMe = () => {
   return (
-    <div className="flex items-center justify-evenly h-screen gap-8 flex-wrap my-2 ">
+    <div className="relative flex items-center justify-evenly h-screen gap-8 flex-wrap my-2 " id='about'>
+         <div className='absolute top-10 left-45 w-80 h-80 bg-blue-300 rounded-full filter blur-xl mt-10 z-0 opacity-40'></div>
+         <div className='absolute top-100 right-8 w-91 h-91 bg-purple-300 rounded-full filter blur-xl mt-10 z-0 opacity-40'></div>
         <img
             alt="image"
             src={pp}
-            className="w-90 h-90"
+            className="w-90 h-90" data-aos='fade-right' data-aos-duration="2500"
         />
 
-        <div className="flex flex-col ">
+        <div className="flex flex-col " data-aos='fade-left' data-aos-duration="2500">
             <h5 className="mb-3 md:text-5xl font-medium text-gray-900 dark:text-white">
                 About me
             </h5>
@@ -53,7 +55,7 @@ const AboutMe = () => {
             </Table>
 
             <div className="flex gap-7 mt-9">
-                <Button color="blue" pill>
+                <Button color="blue" pill href='#skill'>
                 My Skills
                 </Button>
             </div>
