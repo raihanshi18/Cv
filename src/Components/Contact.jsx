@@ -24,12 +24,12 @@ const Contact = () => {
         <a href="https://discordapp.com/users/HANN#hanzxyz" data-aos="zoom-in-down" data-aos-duration="1500"><FaDiscord className='w-10 h-10'/></a>
       </div>
     </div>
-
     <img
       alt="image"
       src={pp}
-      className="w-90 h-90 mx-5" data-aos='fade-left' data-aos-duration="2500" 
+      className="w-90 h-90 mx-5 img-responsive" data-aos='fade-left' data-aos-duration="2500" 
     />
+
     </div>
   )
 }
