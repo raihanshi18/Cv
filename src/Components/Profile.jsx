@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import pp from '../assets/kucing.jpg'
+import pp from '../assets/fotoaku.png'
 import { Button } from 'flowbite-react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -14,7 +14,7 @@ const Profile = () => {
 
   return (
     <div>
-      <div className="flex items-center justify-evenly h-screen gap-8 flex-wrap m-5" id='home'>
+      <div className="flex items-center justify-evenly h-screen gap-8 flex-wrap " id='home'>
         <div className='absolute top-0 -left-4 w-100 h-100 bg-blue-300 rounded-full filter blur-xl mt-10 z-0 opacity-40'></div>
         <div className='absolute top-100 right-0 w-72 h-72 bg-purple-300 rounded-full filter blur-xl mt-10 z-0 opacity-40'></div>
         <div className="relative flex flex-col" data-aos="fade-right" data-aos-duration="2500">
@@ -43,7 +43,7 @@ const Profile = () => {
             </div>
           </div>
         </div>
-
+        
         <img
           alt="image"
           src={pp}

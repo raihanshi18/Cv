@@ -4,7 +4,7 @@ import laptopImage from '../assets/LaptoWork.jpg';
 
 const Project = () => {
   return (
-    <div className='relative mt-10 p-10 h-screen' id='project'>
+    <div className='relative mt-10 p-16 h-screen' id='project'>
          <div className='absolute top-10 left-45 w-72 h-72 bg-purple-300 rounded-full filter blur-xl mt-10 z-0 opacity-40'></div>
          <div className='absolute top-10 right-0 w-72 h-72 bg-blue-300 rounded-full filter blur-xl mt-10 z-0 opacity-40'></div>
          <div className='absolute bottom-10 left-1/2 transform -translate-x-1/2 w-72 h-72 bg-blue-900 rounded-full filter blur-xl mt-10 z-0 opacity-40'></div>

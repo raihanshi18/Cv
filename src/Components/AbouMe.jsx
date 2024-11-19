@@ -1,5 +1,5 @@
 import React from 'react'
-import pp from '../assets/kucing.jpg'
+import pp from '../assets/fotoaku.png'
 import { Button, Card, Table } from 'flowbite-react'
 
 const AboutMe = () => {
@@ -20,39 +20,28 @@ const AboutMe = () => {
             <span className="text-lg md:text-xl  text-gray-500 dark:text-gray-400 max-w-md">
                 Passionate about coding and always eager to explore new ideas and challenges.
             </span>
-                <Table className="mt-5">
-                <Table.Body className="divide-y">
-                <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-                    <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-                    {'Name'}
-                    </Table.Cell>
-                    <Table.Cell>:</Table.Cell>
-                    <Table.Cell>Raihan Abdur Rahman Shiddiq</Table.Cell>
-                </Table.Row>
-                <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-                    <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-                    {'Date of Birth'}
-                    </Table.Cell>
-                    <Table.Cell>:</Table.Cell>
-                    <Table.Cell>May 18, 2008</Table.Cell>
-                </Table.Row>
-                <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-                    <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-                    {'Email'}
-                    </Table.Cell>
-                    <Table.Cell>:</Table.Cell>
-                    <Table.Cell>raihanshiddiq18@gmail.com</Table.Cell>
-                </Table.Row>
-                <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-                    <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-                    {'Phone'}
-                    </Table.Cell>
-                    <Table.Cell>:</Table.Cell>
-                    <Table.Cell>+62 8956 2007 5503</Table.Cell>
-                </Table.Row>
-                
-                </Table.Body>
-            </Table>
+            <div>
+
+            <table className='p-10 mt-8 text-xl text-gray-500'>
+                <tbody>
+                    <tr>
+                        <td>Name</td>
+                        <td>   :</td>
+                        <td>Raihan Abdur Rahman Shiddiq</td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>   :</td>
+                        <td>raihanshiddiq18@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td>   :</td>
+                        <td>+62 8956 2007 5503</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
 
             <div className="flex gap-7 mt-9">
                 <Button color="blue" pill href='#skill'>
