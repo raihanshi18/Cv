@@ -24,7 +24,7 @@ const Profile = () => {
               Hello!
             </h5>
             <h5 className="mb-3 md:text-5xl font-medium text-gray-900 dark:text-white">
-              I'm Asep Shidiq Selebew
+              I'm Raihan Abdur
             </h5>
             <h5 className="mb-3 md:text-5xl font-medium text-gray-900 dark:text-white">
               Rahman Shiddiq
