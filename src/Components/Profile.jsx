@@ -43,12 +43,6 @@ const Profile = () => {
             </div>
           </div>
         </div>
-        
-        <img
-          alt="image"
-          src={pp}
-          className="w-90 h-90" data-aos='fade-left' data-aos-duration="2500"
-        />
       </div>
     </div>
   )
